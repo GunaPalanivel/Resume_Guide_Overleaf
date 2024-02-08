@@ -17,7 +17,7 @@ Welcome to the repository of my resume. This resume is built using LaTeX, a high
 
 ## 👀 Preview
 
-- You can view the PDF version of my resume on the drive and navigate through the links [here](https://drive.google.com/file/d/1zlaUfgw5lvaEeZ6gS-YwNzqpw1NiVvJ8/view?usp=sharing).
+- You can view the PDF version of my resume on the drive and navigate through the links [here](https://drive.google.com/file/d/1_q1IvSGCtvyfzhlFQq0NXNjZ4w3I9KpN/view?usp=sharing).
 
 ## 📞 Contact
 
