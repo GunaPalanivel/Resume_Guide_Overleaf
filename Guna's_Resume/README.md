@@ -4,7 +4,7 @@ Welcome to the repository of my resume. This resume is built using LaTeX, a high
 
 ## 📚 Overview
 
-- 📋The resume is structured into a single column, encompassing information about my education, links to professional profiles, a list of skills, work experience, courses, training, and notable projects.
+- 📋This resume is structured into a single column, encompassing information about my education, links to professional profiles, a list of skills, work experience, courses, training, and notable projects.
 
 ## 🌟 Features
 
