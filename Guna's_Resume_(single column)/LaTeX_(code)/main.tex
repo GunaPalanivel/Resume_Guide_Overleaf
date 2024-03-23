@@ -1,0 +1,223 @@
+%-------------------------
+% Resume in Latex
+% Author: Guna Palanivel
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\Huge \scshape Guna Palanivel} \\ \vspace{1pt}
+    Chennai, 600 089, India \\ \vspace{1pt}
+     \href{tel:+919952380651}{\raisebox{-0.2\height}\faPhone\ \underline{+91 9952380651}} ~
+    \href{mailto:gunapalanivel2003@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{gunapalanivel2003@gmail.com}} \\
+    \vspace{8pt} % Additional space between rows
+    \href{https://www.linkedin.com/in/guna-palanivel/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/guna-palanivel}}  ~
+    \href{https://github.com/GunaPalanivel}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/GunaPalanivel}} ~
+    \href{https://gunaprofile.pages.dev}{\raisebox{-0.2\height}\faGlobe\ \underline{gunaprofile.pages.dev}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SRM University}{Sep 2021 -- Jun 2025}
+      {BTech In Electronics and Communication Engineering}{Chennai, India}
+
+      \resumeSubheading
+      {SRI Ragavendra School}{Mar 2020 -- May 2021}
+      {Higher Secondary Course in Computer Science and Mathematics}{Salem, India}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[left=0pt, itemsep=-2pt]
+    \item \textbf{Programming Languages:} HTML5, CSS3, JavaScript (ES6+)
+    \item \textbf{Database:} MySQL, MongoDB
+    \item \textbf{Operating System:} Windows Subsystem for Linux (WSL), Ubuntu (WSL)
+    \item \textbf{Version Control:} Git, GitHub
+    \item \textbf{Software:} Visual Studio Code, MySQL Workbench, Anaconda Navigator
+\end{itemize}
+\vspace{-16pt}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {IOTIOT.in}{Dec 2023 -- Present}
+      {UI Designer Intern}{Remote}
+      \resumeItemListStart
+        \resumeItem{Currently leading efforts to understand and meticulously document the existing router UI code, addressing long-standing challenges arising from outdated and undocumented code. Employing a comprehensive strategy, including mapping page structures, elucidating folder and file hierarchies, and dissecting HTML, JS, and CSS intricacies.}
+        \resumeItem{Ensured that the documentation adheres to industry-standard markdown formats, providing a clear and comprehensive reference for future modifications. }
+        \resumeItem{Collaborated with a team of two members, guided by a team lead, to design a user-friendly UI for Industrial Routers in Figma. Showcased effective teamwork, merging diverse skills to create an innovative design aligned with project goals and user needs.}
+        \resumeItem{Successfully optimized UI design within the constraints of routers with less than 8MB of storage space, prioritizing efficiency in configuration processes while minimizing disk space and RAM usage.}
+      \resumeItemListEnd
+
+
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------COURSES AND TRAINING-----------
+
+\section{Courses and Training}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {FULL STACK WEB DEVELOPER - MEAN STACK}{May 2023 -- Present}
+      {simplilearn.com}{Master's Program}
+      \resumeItemListStart
+        \resumeItem{Currently pursuing an advanced Master's Program in Full Stack Web Development with a focus on the MEAN stack, demonstrating a commitment to staying at the forefront of industry advancements.}
+        \resumeItem{Gaining in-depth expertise in HTML5, CSS3, JavaScript, My SQL, and MongoDB through rigorous coursework and hands-on projects, ensuring proficiency across the entire web development stack.}
+        \resumeItem{Applying theoretical knowledge to real-world scenarios, actively engaging in practical projects within the Master's Program to develop tangible skills in designing and implementing MEAN stack solutions.}
+        \resumeItem{Demonstrated a strong understanding of the Git version control system and utilized it effectively for collaborative development.}
+      \resumeItemListEnd
+
+
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+{\textbf{BANKIST} $|$ \emph{\href{https://github.com/GunaPalanivel/Bankist.git}{Github} | \href{https://bankist-259ikqlgf-guna-palanivels-projects.vercel.app/}{Preview}}}{HTML, CSS, JS}
+          \resumeItemListStart
+            \resumeItem{Spearheaded the development of the Bankist App, a dynamic online banking application, focusing on DOM manipulation and event-handling techniques using HTML, CSS, and JavaScript. This project was originally introduced by Jonas Schmedtmann.}
+            \resumeItem{  Enhanced the user experience by incorporating various functionalities such as checking account balances, transferring money between accounts, requesting loans, and closing accounts seamlessly within the application.}
+            \resumeItem{Applied modern JavaScript features, such as asynchronous programming, advanced array manipulation, and data handling techniques, to enhance the functionality and user experience of the banking application.}
+            \resumeItem{Implemented robust account features, including secure user authentication, real-time transaction management, and dynamic UI updates.}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+
+\end{document}
