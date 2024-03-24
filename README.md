@@ -4,12 +4,12 @@ Welcome to the repository of my resume. This resume is built using LaTeX, a high
 
 ## 📚 Overview
 
-1. This [resume](https://drive.google.com/file/d/1_q1IvSGCtvyfzhlFQq0NXNjZ4w3I9KpN/view?usp=sharing) is divided into two main sections:
+1. This [resume](https://drive.google.com/file/d/1zlaUfgw5lvaEeZ6gS-YwNzqpw1NiVvJ8/view?usp=sharing) is divided into two main sections:
 
 - **🎓 Left Column**: Contains information about my education, links to professional profiles, mini-projects, and a list of skills.
 - **💼 Right Column**: Which encompasses work experience, courses, training, and notable projects.
 
-2. This [resume](https://drive.google.com/file/d/1zlaUfgw5lvaEeZ6gS-YwNzqpw1NiVvJ8/view?usp=sharing) is structured into a single column:
+2. This [resume](https://drive.google.com/file/d/1_q1IvSGCtvyfzhlFQq0NXNjZ4w3I9KpN/view?usp=sharing) is structured into a single column:
 
 - 📋Encompassing information about my education, links to professional profiles, a list of skills, work experience, courses, training, and notable projects.
 
